@@ -3363,8 +3363,8 @@ fieldset:disabled .btn {
 .btn-primary.active,
 .show>.btn-primary.dropdown-toggle {
     color: #000;
-    background-color: #53c589;
-    border-color: #3ebe7a
+    background-color: var(--hex-normal);
+    border-color: var(--hex-normal)
 }
 
 .btn-check:checked+.btn-primary:focus,
@@ -13047,7 +13047,8 @@ a.text-link:hover {
 
 .docs-article li {
     padding-top: 0.5rem;
-    padding-bottom: 0.5rem
+    padding-bottom: 0.5rem;
+    text-align: justify
 }
 
 .docs-code-block {
